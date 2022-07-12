@@ -1,0 +1,6 @@
+1. when you first load the project into intellij, it is not built 
+2. built meaning some of the resources are not build and are not available to the project, 
+   like for example the petclinic.css, and thats y the project looks "bland"
+3. so what you need to do is a maven clean, and then a maven package, and the project will be built,
+and the resources will be made available to the project
+4. start up the app again
